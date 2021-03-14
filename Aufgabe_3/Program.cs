@@ -7,12 +7,16 @@ namespace Aufgabe_3
     // Date: 14.03.2021
     //
     // Algorithm:
+    // 1. Convert all characters of the given string to lower case
+    // 2. Iterate through the string and check if each character is a vowel
+    // 3. If so, increment the counter
+
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("* This program determines the amount of voewels & other characters in a string *");
+            Console.WriteLine("* This program determines the number of vowels & other characters in a string *");
             Console.WriteLine("********************************************************************************");
 
             string strInput;
